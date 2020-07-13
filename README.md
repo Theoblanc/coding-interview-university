@@ -546,11 +546,11 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [질의 응답](https://github.com/lekkas/c-algorithms)
 
 - [ ] **컴퓨터가 프로그램을 어떻게 처리하는 지:**
-  - [ ] [CPU는 프로그램을 어떻게 실행하는 지 (영상)](https://www.youtube.com/watch?v=XM4lGflQFvA)
-  - [ ] [컴퓨터의 계산 방법 - ALU (영상)](https://youtu.be/1I5ZMmrOfnA)
-  - [ ] [레지스터와 RAM (영상)](https://youtu.be/fpnE6UAfbtU)
-  - [ ] [중앙처리장치(CPU) (영상)](https://youtu.be/FZGugFqdr60)
-  - [ ] [명렁어와 프로그램 (영상)](https://youtu.be/zltgXvg6r3k)
+  - [x] [CPU는 프로그램을 어떻게 실행하는 지 (영상)](https://www.youtube.com/watch?v=XM4lGflQFvA)
+  - [x] [컴퓨터의 계산 방법 - ALU (영상)](https://youtu.be/1I5ZMmrOfnA)
+  - [x] [레지스터와 RAM (영상)](https://youtu.be/fpnE6UAfbtU)
+  - [x] [중앙처리장치(CPU) (영상)](https://youtu.be/FZGugFqdr60)
+  - [x] [명렁어와 프로그램 (영상)](https://youtu.be/zltgXvg6r3k)
 
 </details>
 
@@ -605,11 +605,11 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] 메모리 할당을 포함한 새 배열
       - 배열 메소드 등의 기능을 활용하지 않으면서 정수 배열에 메모리를 할당할 수 있어야 함
       - 16으로 시작하거나 시작하는 숫자가 크다면 2의 제곱수(16, 32, 64, 128)로 시작
-    - [ ] size() - 항목의 개수
+    - [x] size() - 항목의 개수
     - [ ] capacity() - 들어갈 수 있는 항목의 최대 개수
-    - [ ] is_empty()
+    - [x] is_empty()
     - [ ] at(index) - 인덱스에 있는 항목을 돌려주고, 인덱스가 범위 밖이면 에러를 냄
-    - [ ] push(item)
+    - [x] push(item)
     - [ ] insert(index, item) - index에 item을 삽입하고 기존 인덱스의 값부터 쭉 오른쪽으로 쉬프트
     - [ ] prepend(item) - 맨 앞에 원소를 삽입
     - [ ] pop() - 마지막 원소를 삭제하고 값을 돌려준다
@@ -876,7 +876,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
-  - [ ] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
+  - [x] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
   - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
   - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
   - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
@@ -884,8 +884,8 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] [Sedgewick - Quicksort (4 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
-  - [ ] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-  - [ ] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
+  - [x] [1. Quicksort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
+  - [x] [2. Selection](https://www.coursera.org/learn/algorithms-part1/lecture/UQxFT/selection)
   - [ ] [3. Duplicate Keys](https://www.coursera.org/learn/algorithms-part1/lecture/XvjPd/duplicate-keys)
   - [ ] [4. System Sorts](https://www.coursera.org/learn/algorithms-part1/lecture/QBNZ7/system-sorts)
 
@@ -906,18 +906,18 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] 병합 정렬 코드:
   - [ ] [Using output array (C)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/sorting/mergesort.c)
-  - [ ] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
+  - [x] [Using output array (Python)](https://github.com/jwasham/practice-python/blob/master/merge_sort/merge_sort.py)
   - [ ] [In-place (C++)](https://github.com/jwasham/practice-cpp/blob/master/merge_sort/merge_sort.cc)
 - [ ] 퀵 정렬 코드:
 
   - [ ] [구현 (C언어)](http://www.cs.yale.edu/homes/aspnes/classes/223/examples/randomization/quick.c)
   - [ ] [구현 (C언어)](https://github.com/jwasham/practice-c/blob/master/quick_sort/quick_sort.c)
-  - [ ] [구현 (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
+  - [x] [구현 (Python)](https://github.com/jwasham/practice-python/blob/master/quick_sort/quick_sort.py)
 
-- [ ] 구현:
+- [x] 구현:
 
-  - [ ] 병합 정렬: 평균과 최악의 경우 O(n log n)
-  - [ ] 퀵 정렬: 평균적인 경우 O(n log n)
+  - [x] 병합 정렬: 평균과 최악의 경우 O(n log n)
+  - [x] 퀵 정렬: 평균적인 경우 O(n log n)
   - 선택 정렬과 삽입 정렬은 둘 다 평균과 최악의 경우에 O(n^2)
   - 힙 정렬의 경우, 위의 힙 데이터 구조를 보세요.
 
