@@ -9,37 +9,6 @@
 >
 > _행운을 빈다!_
 
-<details>
-<summary>번역:</summary>
-
-- [베트남어](translations/README-vi.md)
-- [브라질 포르투갈어](translations/README-ptbr.md)
-- [스페인어](translations/README-es.md)
-- [중국어](translations/README-cn.md)
-</details>
-
-<details>
-<summary>진행 중인 번역:</summary>
-
-- [그리스어](https://github.com/jwasham/coding-interview-university/issues/166)
-- [러시아어](https://github.com/jwasham/coding-interview-university/issues/87)
-- [말라얄람어](https://github.com/jwasham/coding-interview-university/issues/239)
-- [바하사 인도네시아어](https://github.com/jwasham/coding-interview-university/issues/101)
-- [아랍어](https://github.com/jwasham/coding-interview-university/issues/98)
-- [우르두어](https://github.com/jwasham/coding-interview-university/issues/140)
-- [우크라이나어](https://github.com/jwasham/coding-interview-university/issues/106)
-- [이탈리아어](https://github.com/jwasham/coding-interview-university/issues/170)
-- [일본어](https://github.com/jwasham/coding-interview-university/issues/257)
-- [태국어](https://github.com/jwasham/coding-interview-university/issues/156)
-- [터키어](https://github.com/jwasham/coding-interview-university/issues/90)
-- [텔루구어](https://github.com/jwasham/coding-interview-university/issues/117)
-- [폴란드어](https://github.com/jwasham/coding-interview-university/issues/122)
-- [프랑스어](https://github.com/jwasham/coding-interview-university/issues/89)
-- [한국어](https://github.com/jwasham/coding-interview-university/issues/118)
-- [히브리어](https://github.com/jwasham/coding-interview-university/issues/82)
-- [힌디어](https://github.com/jwasham/coding-interview-university/issues/81)
-</details>
-
 ## 코딩 인터뷰 대학이란?
 
 코딩 인터뷰 대학은 (컴퓨터공학 학위 없이 독학한) 웹 개발자에서 큰 회사의 소프트웨어 엔지니어가 되기 위한 나의 몇 달간의 공부 계획이다.
@@ -610,10 +579,10 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [x] is_empty()
     - [ ] at(index) - 인덱스에 있는 항목을 돌려주고, 인덱스가 범위 밖이면 에러를 냄
     - [x] push(item)
-    - [ ] insert(index, item) - index에 item을 삽입하고 기존 인덱스의 값부터 쭉 오른쪽으로 쉬프트
-    - [ ] prepend(item) - 맨 앞에 원소를 삽입
-    - [ ] pop() - 마지막 원소를 삭제하고 값을 돌려준다
-    - [ ] delete(index) - delete item at index, shifting all trailing elements left
+    - [x] insert(index, item) - index에 item을 삽입하고 기존 인덱스의 값부터 쭉 오른쪽으로 쉬프트
+    - [x] prepend(item) - 맨 앞에 원소를 삽입
+    - [x] pop() - 마지막 원소를 삭제하고 값을 돌려준다
+    - [x] delete(index) - delete item at index, shifting all trailing elements left
     - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
     - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
     - [ ] resize(new_capacity) // private 함수
@@ -728,7 +697,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - ### Binary search
 
-  - [ ] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
+  - [x] [Binary Search (video)](https://www.youtube.com/watch?v=D5SrAga1pno)
   - [ ] [Binary Search (video)](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
   - [ ] [자세한 내용](https://www.topcoder.com/community/competitive-programming/tutorials/binary-search/)
   - [ ] 구현:
@@ -736,10 +705,10 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - 재귀를 사용한 이진 탐색
 
 - ### Bitwise operations
-  - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+  - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
   - [ ] 비트 연산자(&, |, ^, ~, >>, <<) 제대로 이해하기
-    - [ ] [워드](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
-    - [ ] 시작하기 좋은 곳:
+    - [x] [워드](<https://en.wikipedia.org/wiki/Word_(computer_architecture)>)
+    - [x] 시작하기 좋은 곳:
           [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
     - [ ] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
     - [ ] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
@@ -959,7 +928,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 
 - [ ] MIT(영상):
 
-  - [ ] [너비 우선 탐색(BFS;Breadth-First Search)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
+  - [x] [너비 우선 탐색(BFS;Breadth-First Search)](https://www.youtube.com/watch?v=s-CYnVz-uh4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=13)
   - [ ] [깊이 우선 탐색(DFS;Depth-First Search)](https://www.youtube.com/watch?v=AfSk24UTFS8&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=14)
 
 - [ ] Skiena의 강좌 - 시작하기 아주 좋습니다:
@@ -991,8 +960,8 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
   - [ ] [Algorithms on Graphs (video)](https://www.coursera.org/learn/algorithms-on-graphs/home/welcome)
 
 - 내가 구현할 것:
-  - [ ] DFS with 인접 리스트 (재귀)
-  - [ ] DFS with 인접 리스트 (스택을 쓴 비재귀)
+  - [x] DFS with 인접 리스트 (재귀)
+  - [x] DFS with 인접 리스트 (스택을 쓴 비재귀)
   - [ ] DFS with 인접 행렬 (재귀)
   - [ ] DFS with 인접 행렬 (스택을 쓴 비재귀)
   - [ ] BFS with 인접 리스트
