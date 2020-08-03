@@ -588,7 +588,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
     - [ ] resize(new_capacity) // private 함수
       - 용량이 꽉 차면, 그 두배로 크기를 조정한다.
       - item을 하나 꺼낼 때, 용량이 1/4이라면, 용량을 절반으로 줄인다.
-  - [ ] 시간 복잡도
+  - [x] 시간 복잡도
     - 접근, 수정, 끝에 추가/삭제하는 데 O(1)
     - 다른 곳에 추가/삭제하는 데 O(n)
   - [ ] 공간 복잡도
@@ -846,7 +846,7 @@ Anki format의 내 flashcard 데이터베이스: https://ankiweb.net/shared/info
 - [ ] [Sedgewick - Mergesort (5 videos)](https://www.coursera.org/learn/algorithms-part1/home/week/3)
 
   - [x] [1. Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
-  - [ ] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
+  - [x] [2. Bottom up Mergesort](https://www.coursera.org/learn/algorithms-part1/lecture/PWNEl/bottom-up-mergesort)
   - [ ] [3. Sorting Complexity](https://www.coursera.org/learn/algorithms-part1/lecture/xAltF/sorting-complexity)
   - [ ] [4. Comparators](https://www.coursera.org/learn/algorithms-part1/lecture/9FYhS/comparators)
   - [ ] [5. Stability](https://www.coursera.org/learn/algorithms-part1/lecture/pvvLZ/stability)
